@@ -3,7 +3,7 @@ let colors = document.querySelector('.colors')
 let eraser = document.querySelector('.eraser')
 let fill = document.querySelector('.fill')
 let instruments = document.querySelector('.instruments')
-let currentColor = '' //
+let currentColor = ''
 let isClicked = false
 let isFill = false
 let currentInstrument = eraser
@@ -73,7 +73,6 @@ pixels.addEventListener('mousemove', function (e) {
         e.target.style.background = currentColor
     }
 })
-///////
 
 pixels.addEventListener('click', function (e) {
     if (isFill) {
